@@ -53,6 +53,11 @@ const useStyles = makeStyles((theme) => ({
   textField: {
     marginTop: 16,
     fontSize: 16,
+    "& .MuiOutlinedInput-root": {
+      "&.Mui-focused fieldset": {
+        borderColor: theme.palette.fieldColors.border, // border color when focused
+      },
+    },
   },
 
   label: {
