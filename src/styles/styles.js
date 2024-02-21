@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: 65,
     paddingBottom: 65,
   },
+
   formContainer: {
     display: "flex",
     alignItems: "center",
@@ -22,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
       width: 370,
     },
   },
+
   formWrapper: {
     width: 328,
     height: 326,
@@ -35,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
       height: 326,
     },
   },
+
   loginButton: {
     fontSize: 14,
     borderRadius: 4,
@@ -63,6 +66,9 @@ const useStyles = makeStyles((theme) => ({
   label: {
     "&.MuiInputLabel-root": {
       color: theme.palette.backgroundColors.loginButton,
+      "&.Mui-focused": {
+        color: theme.palette.backgroundColors.loginButton,
+      },
     },
   },
 }));
