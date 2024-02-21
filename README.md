@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Tamatem Login Page - React
+## Overview
+This repository contains the code for a responsive login page built using ReactJS, adhering to the provided design specifications.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- Responsive design matching Adobe XD designs
+- Material Design styling
+- Client-side email format validation
+- Remote logo loading
+- Code readability and maintainability
+- No inline stylings
+  
+## Installation
+Clone this repository: git clone <repository_url>
+Navigate to the project directory: cd frontend-login-page-react
+Install dependencies: npm install
 
-## Available Scripts
+## Usage
+Run the application locally: npm start
+View the application in your browser at http://localhost:3000
 
-In the project directory, you can run:
+## Design Specifications
+- All fields (email and password) are required
+- Email format validation is implemented
+- Logo is loaded remotely
+- Design aspects (margins, padding, etc.) follow provided design
+- Variations for normal and error states are covered
+  
+## Contributing
+Contributions are welcome! Please submit pull requests or open issues for suggestions or improvements.
 
-### `npm start`
+## License
+This project is licensed under the MIT License. See LICENSE for details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Contact
+For inquiries or feedback, contact Razan Khateeb at razan.khateeb2@gmail.com.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+- Material Design 2 reference: https://m2.material.io/
+- Adobe XD design link: [Design Link](https://xd.adobe.com/view/270a2b43-d317-4409-aa9a-b5b80c5f37f5-7259/specs/)
+- Logo Link: [Logo Link](https://avatars.githubusercontent.com/u/124091983)https://avatars.githubusercontent.com/u/124091983
